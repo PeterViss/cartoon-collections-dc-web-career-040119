@@ -19,7 +19,7 @@ def long_planeteer_calls(calls_long)# code an argument here
 
 
   # Your code here
-
+learn
 end
 
 
