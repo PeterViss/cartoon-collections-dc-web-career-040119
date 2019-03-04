@@ -5,14 +5,14 @@ def roll_call_dwarves(dwarves)
 end  # Your code here
 end
 
-def summon_captain_planet(planeteer_calls)
-  new_array = []# code an argument here
-  planeteer_calls.collect do |n|
-    puts new_array = planeteer_calls.push (n.capitalize "!")# Your code here
-end
+def summon_captain_planet(produce)
+  # code an argument here
+  produce.collect do |n|
+    n.capitalize + "!"
+  # Your code here
 return new_array
 end
-end
+
 
 def long_planeteer_calls# code an argument here
   # Your code here
