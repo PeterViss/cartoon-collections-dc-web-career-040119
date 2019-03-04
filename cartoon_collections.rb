@@ -15,10 +15,10 @@ end
 
 
 def long_planeteer_calls(calls_long)# code an argument here
-
   calls_long.any? do |word| word.length > 4
 return true
-
+calls_long.any? do |w| w.length < 4
+  return false
   # Your code here
 end
 end
