@@ -10,7 +10,7 @@ def summon_captain_planet(produce)
   produce.collect do |n|
     n.capitalize + "!"
   # Your code here
-return new_array
+end
 end
 
 
