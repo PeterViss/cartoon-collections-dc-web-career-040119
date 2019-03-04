@@ -21,11 +21,9 @@ end
 
 
 def find_the_cheese(cool)# code an argument here
-  cool.find do |word|
-    cheese_types.find do |cheese|
-      cheese == word
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-end
+  cool.find do |cheese|
+    return cheese
 end
 end
