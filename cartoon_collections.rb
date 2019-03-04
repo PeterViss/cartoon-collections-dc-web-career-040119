@@ -16,14 +16,13 @@ end
 
 def long_planeteer_calls(calls_long)# code an argument here
   calls_long.any? do |word| word.length > 4
-
-
-  # Your code here
 end
 end
 
 
-def find_the_cheese# code an argument here
+def find_the_cheese(cool)# code an argument here
+  cool.find do |word|
+    return word
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
