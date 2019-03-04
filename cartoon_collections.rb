@@ -20,11 +20,12 @@ end
 end
 
 
-def find_the_cheese(cheese_types)
-  cheese_types = ["cheddar", "gouda", "camembert"]# code an argument here
-  cheese_types.find do |word|
-    return word
+def find_the_cheese(cool)# code an argument here
+  cool.find do |word| 
+    cheese_types.find do |cheese|
+      cheese == word 
   # the array below is here to help
-
+  cheese_types = ["cheddar", "gouda", "camembert"]
 end
-end
+end 
+end 
